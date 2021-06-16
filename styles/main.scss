@@ -204,6 +204,11 @@ footer{
     a + a{
         margin-left: 2rem;
     }
+    
+    span{
+        position: absolute;
+        left: -99999px;
+    }
 
     svg{
         fill: var(--grayish-blue);
