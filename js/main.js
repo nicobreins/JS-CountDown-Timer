@@ -16,16 +16,18 @@ const countUpdate = setInterval(()=>{
 
     function appendData(array, value){
         for(let i = 0; i < array.length; i++){
-            array[i].textContent = value;
-
-            if(array[i].parentElement.classList.contains('flap')){
+            if(array[i].parentElement.classList.contains('flap') && array[i].textContent > value){
                 array[i].parentElement.classList.add("close");
                 setTimeout(()=>{
                     array[i].parentElement.classList.remove("close");
                 },600);
             }
+
+            array[i].textContent = value;
+
         }
     }
+
 
     appendData(dayElement,days);
     appendData(hoursElement,hours);
