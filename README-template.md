@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/nicobreins/Calculator---FEM)
-- Live Site URL: (https://nicobreins.github.io/Calculator---FEM/)
+- Solution URL: (https://github.com/nicobreins/JS-CountDown-Timer)
+- Live Site URL: (https://nicobreins.github.io/JS-CountDown-Timer/)
 
 ## My process
 
